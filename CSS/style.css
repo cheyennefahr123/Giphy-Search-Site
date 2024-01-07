@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffd0d5;
+    color: #171313;
+}
+
+h1 {
+    margin: 10px 10px;
+    color:#171313
+}
+
+.navbar-dark{
+    background-color:#171313;
+}
+
+.nav-link {
+    color:#ffd0d5;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.inline {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.btn-main {
+    background-color: #6900ba;
+    color: #ffd0d5;
+}
+
+.btn-main:hover {
+    background-color: #171313;
+    color: #ffd0d5;
+}
