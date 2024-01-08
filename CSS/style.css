@@ -3,37 +3,78 @@
     padding: 0;
 }
 
+/* universal styles */
 body {
-    background-color: #ffd0d5;
+    background-color: #fEDCD2;
     color: #171313;
+    font-family: 'Varela Round', sans-serif;
 }
 
 h1 {
-    margin: 10px 10px;
-    color:#171313
+    color:#171313;
+    margin: 25px 0px;
+    text-align: center;
 }
 
+
+/* navbar styles */
 .navbar-dark{
     background-color:#171313;
 }
 
 .nav-link {
-    color:#ffd0d5;
+    color:#fEDCD2;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
+/*class styles */
 .inline {
     display: inline-block;
-    margin-right: 50px;
 }
 
+.small-margin {
+    margin: 0 20px;
+}
+
+/*button styles */
+
 .btn-main {
-    background-color: #6900ba;
-    color: #ffd0d5;
+    background-color: #171313;
+    color: #fEDCD2;
 }
 
 .btn-main:hover {
-    background-color: #171313;
-    color: #ffd0d5;
+    background-color: #Df744a;
+    color: white;
+}
+
+.btn-main:focus {
+    background-color: #Df744a;
+    color: white;
+}
+
+
+
+
+/*media screen commands */
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    form {
+        margin: 0 auto; 
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    form {
+        margin: 0 auto; 
+        width: 280px;
+    }
 }
