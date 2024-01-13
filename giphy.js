@@ -18,8 +18,6 @@ function getData(gifText, gifCount) {
 }
 
 function renderData(response) {
-    console.log(response);
-
     let html = "";
     for (let image of response.data) {
         html += `

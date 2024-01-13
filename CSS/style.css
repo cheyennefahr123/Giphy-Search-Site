@@ -8,6 +8,9 @@ body {
     background-color: #fEDCD2;
     color: #171313;
     font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -16,6 +19,18 @@ h1 {
     text-align: center;
     font-weight: bold;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #171313;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+}
+
 
 
 /* navbar styles */
@@ -48,8 +63,8 @@ h1 {
 
 .light {
     padding-top: 25px;
-    background-color: #171313;
     justify-content: center;
+    padding-bottom: 25px;
 }
 
 .GIF-Image {
@@ -58,7 +73,7 @@ h1 {
 }
 
 
-/*button styles */
+/*main button styles */
 
 .btn-main {
     background-color: #171313;
@@ -83,6 +98,37 @@ h1 {
 .btn-main:active {
     background-color: #Df744a;
     color: white;
+}
+
+/*secondary button styles */
+.btn-sec {
+    background-color: #fEDCD2;
+    color: #171313;
+    box-shadow: none;
+}
+
+.btn-sec:visited {
+    background-color: #fEDCD2;
+    color: #171313;
+    box-shadow: none;
+}
+
+.btn-sec:hover {
+    background-color: #Df744a;
+    color: white;
+    box-shadow: none;
+}
+
+.btn-sec:focus {
+    background-color: #Df744a;
+    color: white;
+    box-shadow: none;
+}
+
+.btn-sec:active {
+    background-color: #Df744a;
+    color: white;
+    box-shadow: none;
 }
 
 
