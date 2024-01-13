@@ -43,26 +43,38 @@
           <li class="nav-item">
             <a class="nav-link" href="https://cheyennefahr123.github.io/portfolio/" target="_blank">Dev Portfolio</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://developers.giphy.com/" target="_blank"><strong>Powered by GIPHY</strong></a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
     <!-- Content-->
     <h1>Giphy Search</h1>
-      <form action="#" method="GET">
+      <form action="#" method="GET" class="js-giphy-form">
           <fieldset>
             <div class="mb-3 inline small-margin">
               <label for="gifTextInput" class="form-label">GIF</label>
-              <input type="text" id="gifTextInput" class="form-control" placeholder="Search for GIF" required>
+              <input 
+                type="text" 
+                id="gifTextInput" 
+                class="form-control" 
+                placeholder="Search for GIF"
+                name="gifTextInput" 
+                required>
             </div>
             <div class="mb-3 inline small-margin">
               <label for="numOfGifSelect" class="form-label">Number of GIFs</label>
-              <select id="numOfGifSelect" class="form-select">
-                <option value ="10">10</option>
-                <option value ="20">20</option>
-                <option value ="30">30</option>
-                <option value ="40">40</option>
-                <option value ="50">50</option>
+              <select 
+                id="numOfGifSelect" 
+                class="form-select" 
+                name="numOfGifSelect">
+                  <option value ="10">10</option>
+                  <option value ="20">20</option>
+                  <option value ="30">30</option>
+                  <option value ="40">40</option>
+                  <option value ="50">50</option>
               </select>
             </div>
             <div class="inline">
@@ -75,5 +87,6 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
         crossorigin="anonymous"
     ></script>
+    <script src="./giphy.js"></script>
 </body>
 </html>
