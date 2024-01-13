@@ -7,17 +7,22 @@
 body {
     background-color: #fEDCD2;
     color: #171313;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 h1 {
     color:#171313;
     margin: 25px 0px;
     text-align: center;
+    font-weight: bold;
 }
 
 
 /* navbar styles */
+.logo {
+    height: 50px;
+}
+
 .navbar-dark{
     background-color:#171313;
 }
@@ -37,9 +42,15 @@ h1 {
     margin: 0 20px;
 }
 
+
 /*button styles */
 
 .btn-main {
+    background-color: #171313;
+    color: #fEDCD2;
+}
+
+.btn-main:visited {
     background-color: #171313;
     color: #fEDCD2;
 }
@@ -54,7 +65,10 @@ h1 {
     color: white;
 }
 
-
+.btn-main:active {
+    background-color: #Df744a;
+    color: white;
+}
 
 
 /*media screen commands */
