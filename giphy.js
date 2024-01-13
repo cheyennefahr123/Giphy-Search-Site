@@ -17,8 +17,15 @@ function getData(gifText, gifCount) {
         .then(renderData);
 }
 
-function renderData(response){
+function renderData(response) {
     console.log(response);
+
+    let html = "";
+    for (let image of response.data) {
+        html += `<img src=${image.images.original.url} alt="${image.title}" />`;
+    }
+
+    document.querySelector(".js-render-images").innerHTML = html;
 }
 
 document.querySelector(".js-giphy-form").addEventListener('submit', formSubmitted);
