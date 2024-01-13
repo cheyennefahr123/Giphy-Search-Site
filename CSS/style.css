@@ -34,12 +34,27 @@ h1 {
 }
 
 /*class styles */
+.banner {
+    margin-bottom: 40px;
+}
+
 .inline {
     display: inline-block;
 }
 
 .small-margin {
     margin: 0 20px;
+}
+
+.light {
+    padding-top: 25px;
+    background-color: #171313;
+    justify-content: center;
+}
+
+.GIF-Image {
+    margin: 10px;
+    border: 4px solid #fEDCD2;
 }
 
 
@@ -92,3 +107,11 @@ h1 {
         width: 280px;
     }
 }
+
+
+@media screen and (max-width: 510px) {
+    .GIF-Image {
+        width: 280px;
+    }
+}
+
