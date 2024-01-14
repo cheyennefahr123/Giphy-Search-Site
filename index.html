@@ -52,7 +52,10 @@
     </div>
   </nav>
     <!-- Content-->
-  <section class="banner">
+  <div class="container-fluid p-0">
+    <img src="./Images/Banner.gif" class="big-img" alt="Giphy Banner">
+    <img src="./Images/small-banner.jpg" class="small-img" alt="Giphy Banner">
+    <div class="flex top-left">
     <h1>Giphy Search</h1>
       <form action="#" method="GET" class="js-giphy-form">
           <fieldset>
@@ -80,12 +83,13 @@
               </select>
             </div>
             <div class="inline">
-              <button type="submit" class="btn btn-main">Submit</button>
+              <button type="submit" class="btn btn-sec">Submit</button>
             </div>
           </fieldset>
         </form>
-  </section>
-        <section class="js-render-images d-flex justify-content-evenly flex-wrap light"></section>
+      </div>
+    </div>
+        <section class="js-render-images d-flex justify-content-evenly flex-wrap light" id="change.color"></section>
         <footer class="text-center text-white">
           <!-- Grid container -->
           <div class="container p-3 pb-0">
@@ -110,7 +114,7 @@
           <!-- Grid container -->
           <!-- Copyright -->
           <div>
-            © 2024 Copyright:
+            © 2024 Copyright
           </div> 
           <!-- Copyright -->
         </footer>

@@ -12,7 +12,7 @@ const API_KEY = "3FS152xPXoeel1HptVWpLd5s8be34iRv";
 
 function getData(gifText, gifCount) {
     fetch(
-        `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${gifText}&limit=${gifCount}&`)
+        `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${gifText}=fixed_height&limit=${gifCount}&rating=pg-13`)
         .then(x => x.json())
         .then(renderData);
 }
@@ -28,5 +28,6 @@ function renderData(response) {
 
     document.querySelector(".js-render-images").innerHTML = html;
 }
+
 
 document.querySelector(".js-giphy-form").addEventListener('submit', formSubmitted);

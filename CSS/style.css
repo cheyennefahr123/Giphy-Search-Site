@@ -14,10 +14,10 @@ body {
 }
 
 h1 {
-    color:#171313;
-    margin: 25px 0px;
-    text-align: center;
     font-weight: bold;
+    color: #fEDCD2;
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -48,7 +48,36 @@ footer {
     font-size: 18px;
 }
 
+.nav-link:active {
+    color:#fEDCD2;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
 /*class styles */
+.container-fluid {
+    position: relative;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 48%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color:#fEDCD2;
+  }
+
+
+.big-img{
+    display:block;
+    width:100%;
+}
+
+.small-img{
+    display: none;
+}
+
 .banner {
     margin-bottom: 40px;
 }
@@ -68,64 +97,36 @@ footer {
 }
 
 .GIF-Image {
-    margin: 10px;
-    border: 4px solid #fEDCD2;
+    margin: 15px;
+    border: 4px solid #171313;
+    border-radius: 1em;
+}
+
+.form-select:not([multiple]) {
+    box-shadow: none;
 }
 
 
 /*main button styles */
 
-.btn-main {
+.btn-main, .btn-main:visited {
     background-color: #171313;
     color: #fEDCD2;
 }
 
-.btn-main:visited {
-    background-color: #171313;
-    color: #fEDCD2;
-}
-
-.btn-main:hover {
-    background-color: #Df744a;
-    color: white;
-}
-
-.btn-main:focus {
-    background-color: #Df744a;
-    color: white;
-}
-
-.btn-main:active {
+.btn-main:focus, .btn-main:hover, .btn-main:active {
     background-color: #Df744a;
     color: white;
 }
 
 /*secondary button styles */
-.btn-sec {
+.btn-sec, .btn-sec:visited {
     background-color: #fEDCD2;
     color: #171313;
     box-shadow: none;
 }
 
-.btn-sec:visited {
-    background-color: #fEDCD2;
-    color: #171313;
-    box-shadow: none;
-}
-
-.btn-sec:hover {
-    background-color: #Df744a;
-    color: white;
-    box-shadow: none;
-}
-
-.btn-sec:focus {
-    background-color: #Df744a;
-    color: white;
-    box-shadow: none;
-}
-
-.btn-sec:active {
+.btn-sec:hover, .btn-sec:focus, .btn-sec:active {
     background-color: #Df744a;
     color: white;
     box-shadow: none;
@@ -133,6 +134,29 @@ footer {
 
 
 /*media screen commands */
+@media screen and (max-width: 950px) {
+    .big-img {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .small-img {
+        display:block;
+        width:100%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .top-left {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:#Df744a;
+      }
+}
 
 @media screen and (max-width: 300px) {
     h1 {
