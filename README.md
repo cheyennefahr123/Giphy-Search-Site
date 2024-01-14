@@ -2,7 +2,7 @@
 ## Details 
 * Hosting link: https://cheyennefahr123.github.io/Giphy-Search-Site/
 * This is a personal website to be further improved upon. It utilizes HTML, CSS and JavaScript to allow users to search for GIFS powered by the GIPHY Developer API.
-* Any user can access this webpage utilizing the hosting link provided above and will be able to search 10-50 GIFs at a time. The user will also be able to navigate to contact information in the footer, protfolio information in the nav bar and access the GIPHY developer API directly from the navbar and footer.  
+* Any user can access this webpage utilizing the hosting link provided above and will be able to search 10-50 GIFs at a time. The user will also be able to navigate to contact information in the footer, portfolio information in the nav bar and access the GIPHY developer API directly from the navbar and footer.  
 * Some future enhancements include: creating responsive elements once the items are rendered (i.e., changing the background color for the section containing rendered items), creating a popup or seperate webpage to create memes with GIFs that are generated from the API search results.
 <br>
 
