@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ footer {
     height: 50px;
 }
 
-.navbar-dark{
+.navbar-dark {
     background-color:#171313;
 }
 
@@ -69,12 +69,12 @@ footer {
   }
 
 
-.big-img{
+.big-img {
     display:block;
     width:100%;
 }
 
-.small-img{
+.small-img {
     display: none;
 }
 
